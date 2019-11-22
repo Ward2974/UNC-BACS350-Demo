@@ -16,9 +16,9 @@ CREATE TABLE reviews (
 
 -- Connection Settings  - PHP Variables 
 
-$dbname = 'uncobacs_350';
-$username = 'uncobacs_350';
-$password = 'BACS_350';
+$dbname = 'spillma4_reviews';
+$username = 'spillma4_review1';
+$password = 'password';
 $port = '3306';
 $host = "localhost:$port";
 
@@ -57,4 +57,3 @@ WHERE id = :id;
 -- DELETE
 
 DELETE from reviews WHERE id = :id;
-
